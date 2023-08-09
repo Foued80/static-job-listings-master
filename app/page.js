@@ -41,14 +41,14 @@ export default function Home() {
       <header className="bg-[#5da5a4] w-full relative aspect-[375/156] md:h-[157px]">
         <Image
           className="bg-repeat  xl:hidden"
-          src="/images/bg-header-mobile.svg"
+          src="./images/bg-header-mobile.svg"
           fill
           alt="header background"
           style={{ objectFit: "fill", objectPosition: "left" }}
         />
         <Image
           className="bg-repeat w-full hidden xl:block"
-          src="/images/bg-header-desktop.svg"
+          src="./images/bg-header-desktop.svg"
           fill
           alt="header background"
           style={{ objectFit: "fill", objectPosition: "left" }}
