@@ -21,7 +21,11 @@ function JobFilterItem({ job }) {
           onClick={handleRemoveJob} // Add onClick event handler for removing the job
         >
           <div className="w-[16px] h-[16px]  relative  m-auto ">
-            <Image src="/images/icon-remove.svg" fill alt="remove icon"></Image>
+            <Image
+              src="./images/icon-remove.svg"
+              fill
+              alt="remove icon"
+            ></Image>
           </div>
         </div>
       </div>
